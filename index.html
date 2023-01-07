@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            color: antiquewhite;
+            background: linear-gradient(rgb(19, 18, 21), rgb(30, 24, 42));
+        }
+        .title {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            gap: 35px;
+            align-items: center;
+            
+            padding: 3rem; 
+            box-sizing: border-box;
+            height: 560px;
+        }
+        
+        .container div {
+           text-align: center;
+        }
+
+        div div {
+            background: linear-gradient(rgb(31, 23, 46), rgb(9, 8, 10));
+            width: 30vw;
+            height: 500px;
+        }
+
+        div div div {
+            background: transparent;
+        }
+
+        p {
+            padding: 20px;
+        }
+
+        #Angular {
+            display: inline-block;
+        }
+        #React {
+            display: inline-block;
+        }
+        #Vue.Js img {
+            display: inline-block;
+        }
+
+        .ANG {
+            display: inline-block;
+            width: fit-content;
+            height: 140px;
+        }
+        .REA {
+            display: inline-block;
+            width: fit-content;
+            height: 140px;
+        }
+        img {
+            margin: 0 auto;
+        }
+        .VUE {
+            display: inline-block;
+            width: fit-content;
+            height: 140px;
+        }
+
+        .VUE img {
+            margin-top: 25px;
+        }
+
+        h2, h3 {
+            margin-left: 20px;
+        }
+
+        ul{
+            margin-left: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Principais Frameworks da atualidade</h1>
+    </div>
+    <div class="container">
+        <div id="Angular"> 
+            <div class="ANG">
+                <img src="images/angular.png" alt="logo Angular">
+            </div>
+            <p>É um framework JavaScript de código aberto mantido pela Google 
+                para a construção de SPA (sigla para Single Page Applications 
+                ou Aplicações de Página Única). Com o Angular, temos um novo 
+                paradigma de desenvolvimento focado nos dados da aplicação. 
+                Ele não utiliza uma virtualização do DOM para manipulá-lo: 
+                ele utiliza mecanismos próprios de detecção de alterações na 
+                interface, alterações tas disparadas principalmente por uma 
+                estrutura chamada Two-Way Data Binding.
+            </p>
+        </div>
+        <div id="React">
+            <div class="REA">
+                <img src="images/react.png" alt="logo React">
+            </div>
+            <p> É uma biblioteca JavaScript para a criação de interfaces
+                de usuário — ou UI (user interface). Criado em 2011 pelo time do 
+                Facebook, o React surgiu com o objetivo de otimizar a atualização
+                e a sincronização de atividades simultâneas no feed de notícias 
+                da rede social, entre eles chat, status, listagem de contatos e 
+                outros. A princípio, todas essas atividades, chamadas de estados,
+                tinham uma descrição muito complexa. Com o React, isso torna-se 
+                mais simples, bem como também é simplificada a conexão entre 
+                HTML, CSS e JavaScript e todos os componentes de uma página.
+                Por ter demonstrado grande eficiência, nos anos seguintes o 
+                React foi incorporado à interface de outras redes sociais do 
+                grupo, como o Instagram e, em 2013, seu código foi aberto à 
+                comunidade, dando início a sua popularização.</p>
+        </div>
+        <div id="Vue.Js">
+            <div class="VUE">
+                <img src="images/vuejs.png" alt="logo Vue.Js">
+            </div>
+            <p>É um framework JavaScript open source para a criação de 
+                aplicações web, criado por Evan You em 2014. O Vue.js 
+                possibilita criar aplicações de forma reativa. Ademais, utiliza-se 
+                de um DOM virtual, o que faz com que seja extremamente 
+                performático na maioria das situações. Além disso, conta com uma
+                arquitetura muito bem estruturada por meio da criação de 
+                componentes reusáveis.Este framework é muito utilizado 
+                para criar aplicações SPA (Single Page Applications) e também para 
+                desenvolver vários outros tipos de interfaces, com foco na interação 
+                e experiência do usuário. Atualmente, o Vue.js está entre
+                os frameworks Javascript para criação de interfaces mais populares 
+                do mundo, devido à sua baixa curva de aprendizado, sua versatilidade 
+                e por oferecer uma solução bem completa - contando até mesmo com uma 
+                CLI, o Vue CLI.</p>
+        </div>
+    </div>
+
+    <h2>Mas o que são frameworks?</h2>
+    <p>
+        Frameworks são estruturas compostas por um conjunto de códigos genéricos
+        que permite o desenvolvimento de sistemas e aplicações. Um framework 
+        funciona como uma espécie de template ou modelo que, quando utilizado, 
+        oferece certos artifícios e elementos estruturais básicos para a criação
+        de alguma aplicação ou software.Por serem uma espécie de “fundação” 
+        sobre a qual um projeto pode ser construído, possibilitam que ele não
+        precise ser iniciado totalmente do zero pelos desenvolvedores. Isso é
+        possível porque os frameworks oferecem componentes pré-prontos e 
+        soluções personalizáveis, agilizando o processo de desenvolvimento. 
+        Como são pensados, testados, otimizados e atualizados por programadores 
+        experientes, os frameworks costumam ser seguros e eficientes, além de muito
+        versáteis — já que podem ser utilizados em projetos de diferentes naturezas.
+        Por isso, são considerados facilitadores no mundo da programação. Esse 
+        conjunto de ferramentas de programação — que inclui código fonte, 
+        compiladores, bibliotecas, classes abstratas, APIs e ainda outros 
+        elementos — oferece o suporte necessário para a programação de softwares
+        em geral. Não importa se for no desenvolvimento web, mobile ou de 
+        ciência de dados (Data Science). 
+    </p>
+
+    <h3>Por que usar Frameworks?</h3>
+    <p>
+        A principal função de um framework é facilitar o processo de desenvolvimento de um software ou aplicação. Ao oferecerem uma estrutura básica sobre a qual o sistema pode ser programado, os frameworks representam uma vantagem em termos de tempo e segurança. 
+        Como são criados por equipes de desenvolvedores experientes e por contarem com comunidades ativas, os frameworks — muitos dos quais são de código aberto — tendem a passar por testes e processos de otimização com certa regularidade.
+        Assim, se alguma falha ou bug é encontrada, pode ser rapidamente reportada e resolvida. De mesmo modo, há mais segurança e consistência nesses padrões, pois são códigos amplamente testados e que comprovadamente funcionam.
+        As funcionalidades de um framework permitem que os desenvolvedores se dediquem às particularidades do projeto sem precisar se preocupar com os elementos básicos da sua estrutura. Por não precisarem começar tudo do zero, os programadores economizam tempo e dinheiro, além de diminuírem os riscos de erro.
+        O processo de funcionamento se dá pela reutilização de conjuntos de códigos genéricos que podem ser aplicados na fundação de um projeto. Esse projeto deve corresponder à linguagem e natureza do framework em questão.
+        A maioria dos frameworks possui fóruns e ampla documentação, o que facilita o compartilhamento de conhecimento e a resolução de vulnerabilidades. 
+        Por isso, alguns dos principais motivos pelos quais frameworks são amplamente utilizados no mundo da programação hoje em dia, são:
+
+        <ul>
+            <li>Otimizar o tempo de desenvolvimento</li>
+            <li>Definir e padronizar as melhores práticas de programação</li>
+            <li>Oferecer maior segurança</li>
+            <li>Evitar códigos duplicados</li>
+            <li>Diminuir a ocorrência de bugs</li>
+            <li>Gerar maior consistência no processo de desenvolvimento e nas aplicações criadas</li>
+            <li>Reduzir as chances de erro no código</li>
+            <li>Possibilitar que os desenvolvedores se dediquem aos elementos específicos do projeto</li>
+            <li>Simplificar e encurtar a curva de aprendizado do time de desenvolvimento</li>
+            <li>Poupar custos</li>
+        </ul>
+    </p>
+
+    <h4>Diferença entre Bibliotecas e Frameworks
+    </h4>
+    <p>
+        Um framework consiste basicamente em elementos de código que guiam o 
+        desenvolvimento de uma aplicação, otimizando esse processo. Por causa 
+        disso, ele às vezes pode ser confundido com uma biblioteca. Mas estes 
+        são dois conceitos distintos utilizados para alcançar objetivos 
+        diferentes. Um framework representa a estrutura dentro da qual você 
+        desenvolverá um software. Assim, seu código deve — desde o princípio — 
+        seguir os padrões estabelecidos pelo framework. Já uma biblioteca 
+        representa recursos que poderão ser utilizados por você no decorrer 
+        do desenvolvimento, fornecendo elementos para completar uma etapa do 
+        desenvolvimento ou otimizá-lo. Essas caracterizações estão ligadas ao 
+        conceito de Inversion of Control (IoC), ou Inversão de Controle, em 
+        português. Isso quer dizer que, quando uma biblioteca é utilizada, o 
+        código faz requisições a ela. Ou seja, o código está no controle, e a 
+        biblioteca corresponde à função solicitada. Já quando se fala em 
+        framework, o processo é invertido, e o código não é mais quem controla. 
+        O framework é quem está no controle, pois ele “chama” o código, o qual 
+        vai responder aos requerimentos do framework. Um exemplo prático pode 
+        facilitar a compreensão dessas definições: imagine que você utiliza 
+        funções curl, que é uma biblioteca PHP. Quando você utiliza uma das 
+        funções curl, o código PHP solicita essa função particular dentro 
+        da biblioteca em questão. É o código PHP que “chama” função curl dentro 
+        da biblioteca. Agora, imagine que você utiliza um framework PHP como, 
+        por exemplo, o Laravel. A relação de controle será invertida, pois o 
+        framework é quem “chama” o código escrito nele. É importante lembrar que,
+        dentro de um framework, podem estar contidas uma ou mais bibliotecas. 
+        Afinal, elas são um dos muitos recursos inteligentes presentes em um framework.
+        </p>
+    
+    
+</body>
+</html>
